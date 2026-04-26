@@ -1,6 +1,6 @@
 ---
 name: meta-ads
-description: Pull, analyze, manage, and CREATE Meta ads (Facebook, Instagram, Messenger, Threads, Click-to-WhatsApp) via the Marketing API. Use when the user mentions Meta/FB/IG ads, Ads Manager, ROAS, CPA, CPM, CTR, ad spend, campaign or ad set performance, creative fatigue, frequency, CTWA, audience/placement breakdowns, A/B ad tests, or wants to pause an ad, change a budget, duplicate a winner, or launch a new campaign from scratch. Trigger on Hebrew terms like פרסום בפייסבוק/באינסטגרם, פרסומות מטא, ביצועי קמפיין, פרסומות, צור קמפיין, השק קמפיין, A/B טסט. Trigger on questions like how are my ads doing, which creative is winning, is my ad fatigued, what's my CPA, drop a 30-day report, launch an A/B test for my course, build a campaign with these 3 angles. Trigger even if auth isn't set up — the skill walks through one-time setup. Do NOT use for organic Instagram analytics, Reels view counts on non-promoted posts, or organic Threads engagement; those need the Instagram Graph API.
+description: Pull, analyze, manage, and CREATE Meta ads (Facebook, Instagram, Messenger, Threads, Click-to-WhatsApp) via the Marketing API. Use when the user mentions Meta/FB/IG ads, Ads Manager, ROAS, CPA, CPM, CTR, ad spend, campaign or ad set performance, creative fatigue, frequency, CTWA, audience/placement breakdowns, A/B ad tests, or wants to pause an ad, change a budget, duplicate a winner, or launch a new campaign from scratch. Trigger on Arabic terms like إعلانات فيسبوك/إنستغرام، إعلانات ميتا، أداء الحملة، إعلانات، أنشئ حملة، أطلق حملة، اختبار A/B. Trigger on questions like how are my ads doing, which creative is winning, is my ad fatigued, what's my CPA, drop a 30-day report, launch an A/B test for my course, build a campaign with these 3 angles. Trigger even if auth isn't set up — the skill walks through one-time setup. Do NOT use for organic Instagram analytics, Reels view counts on non-promoted posts, or organic Threads engagement; those need the Instagram Graph API.
 ---
 
 # Meta Ads (Marketing API)
@@ -170,4 +170,4 @@ This skill is built for one user, one set of credentials, a handful of ad accoun
 - Each client issues their own System User token from their own BM.
 - Audit log of every write action, who triggered it, against which account.
 
-Don't try to retrofit the personal skill for multi-tenant use. Tell the user it's a different build.
+Don't try to retrofit the personal skill for multi-tenant use. Tell the user it's a different bui
